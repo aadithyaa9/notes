@@ -1,11 +1,11 @@
 import express from "express"
-import { createNotes, deleteNode, getNotes, updateNotes } from "../controllers/notesControl.js";
+import { createNotes, deleteNode, getNotes, updateNotes,getID } from "../controllers/notesControl.js";
 
 
 const router = express.Router();
 
 router.get("/",getNotes )
-
+router.get("/:id" , getID)
 router.post("/" , createNotes)
 
 router.put("/:id" , updateNotes)
