@@ -18,7 +18,8 @@
     "dotenv": "^17.2.0",
     "env": "^0.0.2",
     "express": "^4.18.2",
-    "mongoose": "^7.8.7"
+    "mongoose": "^7.8.7",
+    "take_notes": "file:.."
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
